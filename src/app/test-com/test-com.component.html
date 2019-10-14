@@ -1,0 +1,17 @@
+
+    <ul class="nav nav-pills">
+        <li><a (click)="setVal('courses')"> courses</a></li> 
+        <li><a   (click)="setVal('certification')"> certification</a></li> 
+    </ul>
+
+
+
+    <div [ngSwitch]="defaultVal">
+        <div *ngSwitchCase="'courses'">aaaaa</div>
+        <div *ngSwitchCase="'certification'"> bbbbbb</div>
+    </div>
+
+
+    <ul class="list-group">
+        <li class=" list-group-item" ></li>
+    </ul>
